@@ -61,7 +61,7 @@ set cursorline
 set backupdir=~/.vim/bak
 set directory=~/.vim/swp
 
-"" apper space and tab
+"" show space and tab
 set lcs=tab:>.,trail:_,extends:\
 if !(has('win32') || has('win64'))
     highlight SpecialKey cterm=NONE ctermfg=7 guifg=7
