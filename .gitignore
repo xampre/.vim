@@ -1,4 +1,7 @@
-*
-!vimrc
-!gvimrc
-!.git*
+/.netrwhist
+/spell/
+/bak/*
+/swp/*
+/bundle/.vundle
+!/bak/.gitkeep
+!/swp/.gitkeep
