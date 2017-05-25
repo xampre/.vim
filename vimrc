@@ -75,6 +75,12 @@ autocmd FileType * setlocal formatoptions-=ro
 """ keymaps
 nnoremap <Space> <Nop>
 nnoremap Y y$
+nnoremap j gj
+nnoremap k gk
+nnoremap <Down> gj
+nnoremap <Up> gk
+nnoremap gj j
+nnoremap gk k
 
 "" 検索語が画面の真ん中に来るように
 nmap n nzz 
